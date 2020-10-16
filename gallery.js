@@ -27,7 +27,7 @@ function renderLayout(content) {
       })
       }
     </script>
-    <script src="../gallery.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
 `;
