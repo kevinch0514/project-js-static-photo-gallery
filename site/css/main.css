@@ -1,12 +1,16 @@
 #page-header h1 {
-  color: gray;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+body {
+  background-color: gray;
+}
 
-/* main {
-  background-image: "https://c.files.bbci.co.uk/CF3C/production/_111925035_penguino.jpg";
-} */
+main {
+  background-image: url("../images/photo_215.jpg");
+  backdrop-filter: blur(500px) grayscale(100%);
+}
 
 .grid {
   display: grid;
@@ -20,3 +24,6 @@
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
 }
+
+/* <!-- grid source: https://www.quackit.com/css/grid/examples/css_grid_photo_gallery_examples.cfm -->
+<!-- font source: https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Montserrat:wght@200 --> */
